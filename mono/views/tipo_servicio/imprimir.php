@@ -65,4 +65,4 @@ while ($row = mysqli_fetch_assoc($resultado)) {
 mysqli_close($conexion);
 
 // Mostrar PDF en el navegador
-$pdf->Output('I', 'Servicios_Mecanica.pdf');
+$pdf->Output('I', 'Servicios_Ofertados.pdf');
